@@ -5,4 +5,4 @@ const collection = new NumbersCollection([8, 2, -4, 0]);
 const sorter = new Sorter(collection);
 
 sorter.sort();
-console.log("sorter.collection", sorter.collection);
+console.log("collection.data", collection.data);
